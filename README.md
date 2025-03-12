@@ -148,3 +148,25 @@ function mergeSortedArrays(arr1, arr2) {
 Answer: The candidate should create a MERN application with user authentication (e.g., JWT), CRUD functionality for blog posts, comment handling, and user interactions (likes). Expect the use of React for the frontend, Express.js for the backend, MongoDB for data storage, and the handling of edge cases (e.g., unauthenticated users, error handling).
 2. You are tasked with optimizing a web page that renders a list of items from a MongoDB database. The page suffers from performance issues due to a large number of items being rendered at once. How would you optimize both the backend and frontend for performance?
 Answer: Frontend optimizations include using pagination or infinite scroll, lazy loading components, and optimizing large image sizes. Backend optimizations include using MongoDB indexes for efficient querying, limiting the amount of data fetched (e.g., using projections), and using efficient query patterns. They should consider both frontend and backend strategies to improve overall performance.
+
+
+### 22. Can you write a function in JavaScript to flatten a nested array of any depth without using built-in flat methods?
+
+```js
+// Sample Input
+const arr = [1, [2, [3, 4], 5], 6];
+
+// Expected Output
+flattenArray(arr); // [1, 2, 3, 4, 5, 6]
+```
+
+### 23. Can you write a function in JavaScript to merge two sorted arrays into a single sorted array without using built-in sorting functions?
+
+```js
+// Sample Input
+const arr1 = [1, 3, 5, 7];
+const arr2 = [2, 4, 6, 8];
+
+// Expected Output
+mergeSortedArrays(arr1, arr2); // [1, 2, 3, 4, 5, 6, 7, 8]
+```
